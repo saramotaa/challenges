@@ -28,7 +28,7 @@ $totalVendas = "1230.30";
 
 $comissao = ($totalVendas * 0.15);
 $totalSalario = ($salario + $comissao);
-echo sprintf("R$" . "%.2f", $totalSalario);
+echo sprintf("TOTAL = R$" . "%.2f", $totalSalario);
 
 ?>
 </pre>
